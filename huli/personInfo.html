@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>个人信息</title>
+    <!--<link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="stylesheet" href="css/personInfo.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+
+</head>
+<body>
+      <div class="main">
+
+
+      <header class="header">
+          <div class="dpi-1260 pos-rela">
+              <div class="header_bg">
+                  <!--头部背景-->
+                  <img src="imgs/bg_header.jpg" alt="">
+              </div>
+              <a href="#" class="contUS_mark"></a>
+              <!--logo-->
+              <a href="index.html">
+                  <div class="logo"></div>
+              </a>
+              <!-- 登录按钮（用户名）&& 购物车组 -->
+              <div class="loginOrShop">
+                  <a href="" class="login"></a>
+                  <span class="gapLine_0"></span>
+                  <a href="#" class="shopping hasRreasure">
+                      <span class="treas_count">3</span>
+                  </a>
+                  <div class="manager-user">
+                      <a href="" class="personal">个人中心</a>
+                      <a href="login.html" class="checkout-user">退出登录</a>
+                  </div>
+                  <div class="treas_brief">
+                      <div class="treas_brief-content">
+                          <p>
+                              <span class="treas_name"><a href="#">9成新转角沙发超级转角沙发</a></span>
+                              <span class="treas_price">9999</span>
+                              <span class="treas_count">x2</span>
+                          </p>
+                          <p>
+                              <span class="treas_name"><a href="#">3成新超级大茶几</a></span>
+                              <span class="treas_price">9999</span>
+                              <span class="treas_count">x2</span>
+                          </p>
+                          <p>
+                              <span class="treas_name"><a href="#">7成新超级电视贵</a></span>
+                              <span class="treas_price">9999</span>
+                              <span class="treas_count">x2</span>
+                          </p>
+                      </div>
+                      <div class="treas_brief-goto">
+                          <a href="myShopping.html" target="_self">查看购物车</a>
+                      </div>
+                  </div>
+              </div>
+              <!--地区选择-->
+              <div class="select_custom dist-select">
+                  <i data-value="0" style="background-position: 106px 0;">成都地区</i>
+                  <dl style="width: 146px; margin-left: -7px; display: none;">
+                      <dt data-value="0">成都地区</dt>
+                      <dt data-value="1">北京地区</dt>
+                      <dt data-value="2">上海地区</dt>
+                      <dt data-value="3">深圳地区</dt>
+                      <dt data-value="4">其他地区</dt>
+                  </dl>
+              </div>
+
+          </div>
+
+          <!--主导航栏-->
+          <div class="main_nav">
+              <div class="dpi-1260">
+                  <ul>
+                      <li class="ml-10 menu-list" ajaxData="classify-sofa">
+                          <a href="classify.html" class="mainMenu">沙发&nbsp;&nbsp;&nbsp;SOFAS</a>
+                          <div>
+                              <a href="#" target="_self" class="lev2_col-1">单人位</a>
+                              <a href="#" target="_self" class="lev2_col-1">双人位</a>
+                              <a href="#" target="_self" class="lev2_col-1">三人位</a>
+                              <a href="#" target="_self" class="lev2_col-1">休闲沙发</a>
+                              <a href="#" target="_self" class="lev2_col-1">转角沙发</a>
+                          </div>
+                      </li>
+                      <li class="menu-list" ajaxData="classify-tabAndChair">
+                          <a href="classify.html" class="mainMenu" >桌椅&nbsp;&nbsp;&nbsp;TABLES/CHAIRS</a>
+                          <div class="sd">
+                              <a href="#" target="_self" class="lev2_col-2">餐桌</a>
+                              <a href="#" target="_self" class="lev2_col-2">餐椅</a>
+                              <a href="#" target="_self" class="lev2_col-2 clearf-l">书桌</a>
+                              <a href="#" target="_self" class="lev2_col-2">凳子</a>
+                              <a href="#" target="_self" class="lev2_col-2 clearf-l">电脑桌</a>
+                              <a href="#" target="_self" class="lev2_col-2">休闲椅</a>
+                              <a href="#" target="_self" class="lev2_col-2 clearf-l">梳妆台</a>
+                              <a href="#" target="_self" class="lev2_col-2">户外椅</a>
+                              <a href="#" target="_self" class="lev2_col-1 clearf-l">其它</a>
+                          </div>
+                      </li>
+                      <li class="menu-list" ajaxData="classify-beds">
+                          <a href="classify.html" class="mainMenu" >床&nbsp;&nbsp;&nbsp;BEDS</a>
+                          <div>
+                              <a href="#" target="_self" class="lev2_col-1">1.5米</a>
+                              <a href="#" target="_self" class="lev2_col-1">1.8米</a>
+                              <a href="#" target="_self" class="lev2_col-1">其它</a>
+                          </div>
+                      </li>
+                      <li class="w-134 menu-list" ajaxData="classify-storage">
+                          <a href="classify.html" class="mainMenu" >柜&nbsp;&nbsp;&nbsp;STORAGE</a>
+                          <div>
+                              <a href="#" target="_self" class="lev2_col-2 w-48">衣柜</a>
+                              <a href="#" target="_self" class="lev2_col-2 w-48">储物柜</a>
+                              <a href="#" target="_self" class="lev2_col-2 w-48 clearf-l">书柜</a>
+                              <a href="#" target="_self" class="lev2_col-2 w-48">电视柜</a>
+                              <a href="#" target="_self" class="lev2_col-2 w-48 clearf-l">鞋柜</a>
+                              <a href="#" target="_self" class="lev2_col-2 w-48">床头柜</a>
+                              <a href="#" target="_self" class="lev2_col-1 clearf-l">其它</a>
+                          </div>
+                      </li>
+                      <li class="menu-list" ajaxData="classify-more">
+                          <a href="classify.html" class="mainMenu">更多&nbsp;&nbsp;&nbsp;MORE</a>
+                          <div>
+                              <a href="#" target="_self" class="lev2_col-1">组合产品</a>
+                              <a href="#" target="_self" class="lev2_col-1">日用家居</a>
+                              <a href="#" target="_self" class="lev2_col-1">家居饰品</a>
+                              <a href="#" target="_self" class="lev2_col-1">其它</a>
+                          </div>
+                      </li>
+                      <!-- 搜索框 -->
+                      <div class="nav_search">
+                          <input type="text" value="" placeholder="搜索">
+                          <i></i>
+                      </div>
+                  </ul>
+              </div>
+          </div>
+
+
+
+
+
+      </header>
+
+      <div class="content">
+
+          <!-- 个人信息查看及设置 { -->
+          <div class="pesnInfo">
+              <!-- 个人信息——板块选择 { -->
+              <div class="pesnInfo-choose">
+                  <ul>
+                      <li class="pc_li">
+                          个人信息
+                      </li>
+                      <li>
+                          我的订单
+                      </li>
+                      <li>
+                          我的出售
+                      </li>
+                      <li>
+                          个人账户
+                      </li>
+                      <li>
+                          系统消息
+                          <i>3</i>
+                      </li>
+                  </ul>
+              </div>
+              <!-- } 个人信息——板块选择 -->
+
+              <div class="mianPesn">
+                  <!-- 个人信息设置 { -->
+                  <div class="pesnSet">
+                      <div class="pesnInfo-set">
+
+                          <div>
+                              <label>联系人</label>
+                              <input type="text" placeholder="姓名" class="w-132">
+                              <input type="text" placeholder="电话号码" class="w-256">
+                          </div>
+
+                          <div>
+                              <label>性别</label>
+                              <p class="sex_P"><i class="sex sex_checked"></i><label for>男</label></p>
+                              <p class="sex_P"><i class="sex"></i><label for>女</label></p>
+                          </div>
+
+                          <div>
+                              <label>生日</label>
+                              <div class="select_custom set-year">
+                                  <i data-value="0">2015</i>
+                                  <dl>
+                                      <dt data-value="0">1910</dt>
+                                      <dt data-value="1">1911</dt>
+                                      <dt data-value="2">1912</dt>
+                                      <dt data-value="3">1913</dt>
+                                      <dt data-value="4">1914</dt>
+                                      <dt data-value="noSet">...</dt>
+                                      <dt data-value="105">2015</dt>
+                                  </dl>
+                              </div>
+                              <div class="select_custom set-mooth">
+                                  <i data-value="0">01</i>
+                                  <dl>
+                                      <dt data-value="0">01</dt>
+                                      <dt data-value="1">02</dt>
+                                      <dt data-value="2">03</dt>
+                                      <dt data-value="3">04</dt>
+                                      <dt data-value="4">05</dt>
+                                      <dt data-value="5">06</dt>
+                                      <dt data-value="6">07</dt>
+                                      <dt data-value="7">08</dt>
+                                      <dt data-value="8">09</dt>
+                                      <dt data-value="9">10</dt>
+                                      <dt data-value="10">11</dt>
+                                      <dt data-value="11">12</dt>
+                                  </dl>
+                              </div>
+                              <div class="select_custom set-date">
+                                  <i data-value="0">01</i>
+                                  <dl>
+                                      <dt data-value="0">01</dt>
+                                      <dt data-value="1">02</dt>
+                                      <dt data-value="2">03</dt>
+                                      <dt data-value="3">04</dt>
+                                      <dt data-value="4">05</dt>
+                                      <dt data-value="5">06</dt>
+                                      <dt data-value="6">07</dt>
+                                      <dt data-value="7">08</dt>
+                                      <dt data-value="8">09</dt>
+                                      <dt data-value="9">10</dt>
+                                      <dt data-value="10">11</dt>
+                                      <dt data-value="11">12</dt>
+                                      <dt data-value="12">13</dt>
+                                      <dt data-value="noSet">...</dt>
+                                      <dt data-value="29">30</dt>
+                                      <dt data-value="30">31</dt>
+                                  </dl>
+                              </div>
+                          </div>
+
+                          <div>
+                              <label>家居偏好</label>
+                              <div class="select_custom fitmentStyle">
+                                  <i data-value="105">现代简约</i>
+                                  <dl>
+                                      <dt data-value="0">现代简约</dt>
+                                      <dt data-value="1">恬淡田园</dt>
+                                      <dt data-value="2">现代中式</dt>
+                                      <dt data-value="3">东南亚风格</dt>
+                                      <dt data-value="4">欧式古典</dt>
+                                      <dt data-value="5">地中海</dt>
+                                      <dt data-value="6">美式乡村</dt>
+                                      <dt data-value="7">美式古典</dt>
+                                      <dt data-value="8">时尚混搭</dt>
+                                      <dt data-value="9">其它</dt>
+                                  </dl>
+                              </div>
+                          </div>
+
+                          <div>
+                              <label>教育程度</label>
+                              <div class="select_custom eduDegree">
+                                  <i data-value="105">初中</i>
+                                  <dl>
+                                      <dt data-value="0">初中</dt>
+                                      <dt data-value="1">高中</dt>
+                                      <dt data-value="2">大专</dt>
+                                      <dt data-value="3">本科</dt>
+                                      <dt data-value="4">硕士</dt>
+                                      <dt data-value="5">博士</dt>
+                                      <dt data-value="6">其它</dt>
+                                  </dl>
+                              </div>
+                          </div>
+
+                          <div>
+                              <label>所在行业</label>
+                              <div class="select_custom industry">
+                                  <i data-value="0">机构组织</i>
+                                  <dl>
+                                      <dt data-value="0">机构组织</dt>
+                                      <dt data-value="1">农林牧渔</dt>
+                                      <dt data-value="2">医药卫生</dt>
+                                      <dt data-value="3">建筑建材</dt>
+                                      <dt data-value="4">冶金矿产</dt>
+                                      <dt data-value="5">石油化工</dt>
+                                      <dt data-value="6">信息产业</dt>
+                                      <dt data-value="7">交通运输</dt>
+                                      <dt data-value="8">信息产业</dt>
+                                      <dt data-value="9">机械机电</dt>
+                                      <dt data-value="10">轻工食品</dt>
+                                      <dt data-value="11">服装纺织</dt>
+                                      <dt data-value="12">安全防护</dt>
+                                      <dt data-value="13">环保绿化</dt>
+                                      <dt data-value="14">其它</dt>
+                                  </dl>
+                              </div>
+                          </div>
+
+                          <div class="region">
+                              <label>所在地区</label>
+                              <div class="select_custom">
+                                  <i data-value="0">四川</i>
+                                  <dl>
+                                      <dt data-value="0">四川</dt>
+                                      <dt data-value="1">北京</dt>
+                                      <dt data-value="2">上海</dt>
+                                      <dt data-value="3">深圳</dt>
+                                      <dt data-value="4">其他地区</dt>
+                                  </dl>
+                              </div>
+                              <div class="select_custom ml-10">
+                                  <i data-value="0">成都市</i>
+                                  <dl>
+                                      <dt data-value="0">成都市</dt>
+                                      <dt data-value="1">绵阳市</dt>
+                                      <dt data-value="2">自贡市</dt>
+                                      <dt data-value="3">攀枝花市</dt>
+                                      <dt data-value="4">泸州市</dt>
+                                      <dt data-value="5">其它市</dt>
+                                  </dl>
+                              </div>
+                              <div class="select_custom ml-10">
+                                  <i data-value="0">锦江区</i>
+                                  <dl>
+                                      <dt data-value="0">锦江区</dt>
+                                      <dt data-value="1">金牛区</dt>
+                                      <dt data-value="2">武侯区</dt>
+                                      <dt data-value="3">青羊区</dt>
+                                      <dt data-value="4">高新区</dt>
+                                      <dt data-value="5">成华区</dt>
+                                      <dt data-value="6">双流县</dt>
+                                      <dt data-value="7">金堂县</dt>
+                                      <dt data-value="8">新津县</dt>
+                                      <dt data-value="9">大邑县</dt>
+                                      <dt data-value="10">蒲江县</dt>
+                                      <dt data-value="11">郫县</dt>
+                                      <dt data-value="12">其它</dt>
+                                  </dl>
+                              </div>
+                              <div class="select_custom ml-10">
+                                  <i data-value="0">三环以内</i>
+                                  <dl>
+                                      <dt data-value="0">三环以内</dt>
+                                      <dt data-value="1">三环以外绕城以内</dt>
+                                      <dt data-value="2">绕城西</dt>
+                                      <dt data-value="3">绕城南</dt>
+                                      <dt data-value="4">绕城东</dt>
+                                      <dt data-value="5">绕城北</dt>
+                                  </dl>
+                              </div>
+                              <br>
+                              <input type="text" placeholder="街道门牌号" class="w-557 mt-10">
+                          </div>
+
+                          <div class="mt-80">
+                              <!--
+                              -- 为其添上样式“active”即可出现可点击的效果
+                              -- 请外还需注意设置“disabled”属性
+                              -- 方便用于以后的数据验证功能
+                              -->
+                              <button type="button" class="pesnInfo_btn" disabled>提交</button>
+                              <!--<button type="button" class="pesnInfo_btn active">提交</button>-->
+                          </div>
+                      </div>
+                  </div>
+                  <!-- } 个人订单设置 -->
+                  <div class="pesnOrder">
+                      <table class="order">
+                          <thead>
+                          <tr>
+                              <th>订单信息</th>
+                              <th>金额</th>
+                              <th>下单时间</th>
+                              <th>送货时间</th>
+                              <th>状态</th>
+                              <th>操作</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+
+                          </tbody>
+                      </table>
+                      <input type="button" value="返回" class="return_pesnI ">
+                  </div>
+                  <!--个人出售设置-->
+                  <div class="sell_info">
+                      <input type="button" value="我要出售" class="pesn_sell">
+                      <table class="order">
+                          <thead>
+                          <tr>
+                              <th>订单信息</th>
+                              <th>售卖金额</th>
+                              <th>提交时间</th>
+                              <th>上架时间</th>
+                              <th>商品存储</th>
+                              <th>商品状态</th>
+                              <th>是否回款</th>
+                              <th>操作</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+                          </tbody>
+                      </table>
+                      <div class="ctrlNeedKnow">
+                          <p>
+                              操作须知：审核未通过的订单请查看系统消息修改重新上传；
+                              <br>
+                              每个订单仅能使用一次降价申请功能，如有疑问请联系客服。
+                          </p>
+                      </div>
+
+                  </div>
+                  <!--个人账户-->
+                  <div class="accountBox grayBg">
+                      <h1>个人账户</h1>
+                      <div class="myScore white-bg">
+                          <div class="scoreDisplay">
+                              <p>我的积分</p>
+                              <div>
+                                  <span class="scoreNum">200</span>
+                                  <span>分</span>
+                              </div>
+                          </div>
+                          <div class="scoreExplain">
+                              <p>您在户里网的任意消费都可获得积分，积分可直接抵扣商品金额</p>
+                          </div>
+                          <div class="gotoScoreRule">
+                              <p>
+                                  <span>查看</span>
+                                  <a href="#" class="link-blue">积分规则</a>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--系统消息-->
+                  <div class="sysMesg">
+                      <div class="sysMesgBox grayBg">
+                          <h1>系统消息</h1>
+                          <!-- 消息列表 -->
+                          <div class="mesgList">
+                              <!-- 示例消息1 -->
+                              <div class="mesgItem">
+                                  <div class="mesgContent fl">
+                                      <p class="mesgTxt">在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。</p>
+                                      <p class="mesgDatetime">2015-8-11 22:48:26</p>
+                                  </div>
+                                  <div class="mesgSelect">
+                                      <label>
+                                          <i class="selector"></i>
+                                          <span>标记</span>
+                                      </label>
+                                  </div>
+                              </div>
+                              <!-- 示例消息2 -->
+                              <div class="mesgItem">
+                                  <div class="mesgContent fl">
+                                      <p class="mesgTxt">在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。</p>
+                                      <p class="mesgDatetime">2015-8-11 22:48:26</p>
+                                  </div>
+                                  <div class="mesgSelect">
+                                      <label>
+                                          <i class="selector"></i>
+                                          <span>标记</span>
+                                      </label>
+                                  </div>
+                              </div>
+                              <!-- 示例消息3 -->
+                              <div class="mesgItem">
+                                  <div class="mesgContent fl">
+                                      <p class="mesgTxt">在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。</p>
+                                      <p class="mesgDatetime">2015-8-11 22:48:26</p>
+                                  </div>
+                                  <div class="mesgSelect">
+                                      <label>
+                                          <i class="selector"></i>
+                                          <span>标记</span>
+                                      </label>
+                                  </div>
+                              </div>
+                              <!-- 示例消息4 -->
+                              <div class="mesgItem">
+                                  <div class="mesgContent fl">
+                                      <p class="mesgTxt">在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。在户里网的任意消费都可以获得积分，积分可以直接抵扣商品金额。</p>
+                                      <p class="mesgDatetime">2015-8-11 22:48:26</p>
+                                  </div>
+                                  <div class="mesgSelect">
+                                      <label>
+                                          <i class="selector"></i>
+                                          <span>标记</span>
+                                      </label>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+                      <input type="button" value="删除" class="return_pesnI ">
+                  </div>
+              </div>
+
+          </div>
+
+
+
+      </div>
+
+
+      <footer class="footer ">
+          <div class="footer-title">生活要过得朴素而有味道，但不用过得奢华。</div>
+          <div class="footer-mark">
+              <div class="footer-mark-box">
+                  <div class="footer-mark-keyword">
+                      <i>环保</i>
+                      <span>无甲醛 大自然</span>
+                  </div>
+                  <div class="footer-mark-keyword">
+                      <i>低价</i>
+                      <span>低于购买价6折</span>
+                  </div>
+                  <div class="footer-mark-keyword">
+                      <i>安全</i>
+                      <span>专业清洁消毒处理</span>
+                  </div>
+                  <div class="footer-mark-keyword">
+                      <i>省心</i>
+                      <span>专业物流配送安装</span>
+                  </div>
+                  <div class="footer-mark-keyword">
+                      <i>快捷</i>
+                      <span>24小时内送货</span>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-info">
+              <div class="footer-info-box">
+                  <div class="footer-info-content">
+                      <h2>关于我们</h2>
+                      <p>
+                          <a href="#">关于户里</a>
+                          <a href="#">注册协议</a>
+                      </p>
+                      <p>
+                          <a href="#">业务合作</a>
+                          <a href="#">免责声明</a>
+                      </p>
+                      <p>
+                          <a href="#">加入户里</a>
+                          <a href="#">隐私保护</a>
+                      </p>
+                  </div>
+                  <div class="footer-info-content">
+                      <h2>流程指南</h2>
+                      <p>
+                          <a href="#">购买家具</a>
+                          <a href="#">出售家具</a>
+                      </p>
+                      <p>
+                          <a href="#">支付方式</a>
+                          <a href="#">配送安装</a>
+                      </p>
+                      <p>
+                          <a href="#">售后保障</a>
+                      </p>
+                  </div>
+                  <div class="footer-info-content">
+                      <h2>会员中心</h2>
+                      <p>
+                          <a href="#">会员计划</a>
+                      </p>
+                      <p>
+                          <a href="#">积分规则</a>
+                      </p>
+                      <p>
+                          <a href="#">投诉建议</a>
+                      </p>
+                  </div>
+                  <div class="footer-info-content">
+                      <h2>联系客服</h2>
+                      <p>
+                          <span>电话：</span><br>
+                          <span>028-67635062</span>
+                      </p>
+                      <p>
+                          <span>邮箱：</span><br>
+                          <span>hello@hulihome.com</span>
+                      </p>
+                  </div>
+                  <div class="footer-info-content">
+                      <p class="sina">
+                          <i class="sina-small-logo"></i>
+                          <span>新浪微博@户里网</span>
+                      </p>
+                      <div class="sina-code"></div>
+                  </div>
+                  <div class="footer-info-content">
+                      <p class="wechat">
+                          <i class="wechat-small-logo"></i>
+                          <span>关注微信“户里网”</span>
+                      </p>
+                      <div class="wechat-code"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-copyright">蜀ICP备15028224号  成都户里科技有限公司</div>
+      </footer>
+
+      </div>
+
+
+
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/personInfo.js"></script>
+</body>
+</html>

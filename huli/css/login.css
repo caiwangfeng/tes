@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/**
+ * Created by punkLee on 17/10/31.
+ */
+@charset "UTF-8";
+/**
+ * Created by punkLee on 17/10/30.
+ */
+
+
+
+/*内容部分*/
+.user-content{
+    width: 100%;
+    height: 580px;
+    margin: 100px auto 0;
+    position: relative;
+}
+.login-box, .reg-box{
+    width: 400px;
+    text-align: center;
+    margin:0 auto;
+}
+.login-box, .reg-box{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.to-hidden{
+    display: none;
+}
+.login-box-title{
+    margin-bottom: 50px;
+}
+.login-box-title h1, .reg-box-title h1{
+    width: 100%;
+    font: normal 32px/140% "微软雅黑";
+    color: #333;
+}
+.login-box-title h3, .reg-box-title h3{
+    margin-top: 10px;
+    color: #888;
+    font: normal 18px/140% "微软雅黑";
+}
+.login-box-title span,  .loginForm p:not(.error), .reg-box-title span{
+    text-decoration: underline;
+    font-style: italic;
+    color: #4375ad;
+}
+.login-box-title span:hover,.reg-box-title span:hover, .loginForm .forget-psw:hover{
+    color: #44f3ff;
+}
+.loginForm, .regForm{
+    text-align: left;
+}
+.loginForm div, .regForm div{
+    margin: 15px 0 15px 0;
+}
+.loginForm label, .regForm label{
+    display: block;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #555;
+    text-align: left;
+}
+.loginForm input, .regForm input{
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    outline: none;
+    text-indent: 10px;
+    border: 1px solid #b6b7b8;
+}
+.loginForm input:focus, .regForm input:focus{
+    box-shadow: 0 0 4px 1px #82c353;
+}
+.loginForm .forget-psw{
+    text-align: right;
+}
+.loginForm button, .regForm button{
+    margin-top: 30px;
+    width: 400px;
+    height: 64px;
+    background-color: #838281;
+    border: none;
+    text-align: center;
+    font: normal 32px/64px "微软雅黑";
+    color: #fff;
+    cursor: not-allowed;
+    outline: none;
+}
+p.error, span.regChecked, span.logChecked{
+    color: red;
+}
+

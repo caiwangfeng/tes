@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/**
+ * Created by punkLee on 17/11/2.
+ */
+main{
+    color: #555;
+}
+.shopping-car{
+    width: 1260px;
+    margin: 20px auto;
+
+}
+.shopping-car h2, .shopping-recommend-box h2{
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.shopping-car table{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.shopping-car th, .shopping-car td{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+.activity{
+    cursor: not-allowed;
+    background: #ccc;
+}
+.shopping-car input[type='text'] {
+    width: 36px;
+    height: 26px;
+    margin: 0 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+}
+.shopping-car button{
+    display: inline-block;
+    width: 30px;
+    height: 21px;
+}
+.shopping-pay-box{
+    padding-left: 31px;
+    box-sizing: border-box;
+    width: 1260px;
+    height: 60px;
+    line-height: 60px;
+    margin:20px auto 100px;
+    background: #eaeaea;
+}
+.shopping-pay-check{
+
+}
+.shopping-total{
+    font-size: 20px;
+}
+.shopping-total-money{
+
+    font-size: 20px;
+    color: red;
+}
+.shopping-to-pay{
+    display: inline-block;
+    margin-left: 20px;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: red;
+    border-radius: 3px;
+    color: white;
+}
+
+.shopping-recommend-box{
+    width: 1260px;
+    margin:0 auto 100px;
+}
+.shopping-recommend{
+    display: flex;
+    justify-content: space-between;
+}
+.recommend-info-box{
+    width: 366px;
+    height:auto;
+
+}
+.recommend-show{
+    width: 366px;
+    height: 366px;
+    background: pink;
+}
+.recommend-info{
+    height: 60px;
+    text-align: center;
+}
+.recommend-info span{
+    line-height: 60px;
+    font-size: 20px;
+}

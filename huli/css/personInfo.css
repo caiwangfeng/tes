@@ -1,0 +1,490 @@
+/*.main{*/
+    /*width: 100%;*/
+    /*height: 296px;*/
+/*}*/
+
+
+
+
+
+
+
+
+/*css     */
+
+.content{
+    margin-bottom: 100px;
+}
+.pesnInfo{
+    width: 1260px;
+    margin: 0 auto;
+}
+.pesnInfo-choose{
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+}
+.pesnInfo-choose li{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin: 0 30px 0;
+}
+.pc_li{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+.pesnInfo-choose li:hover{
+
+    cursor: pointer;
+}
+.pesnInfo-choose li i {
+    width: auto;
+    height: 15px;
+    min-width: 8px;
+    background-color: #de3d36;
+    padding: 1px;
+    line-height: 14px;
+    border-radius: 10px;
+    font-style: normal;
+    font-size: 12px;
+    color: #fff;
+    right: 0;
+    top: -4px;
+    position: absolute;
+}
+.pesnInfo-set{
+    padding: 30px;
+
+}
+
+.pesnInfo-set>div{
+    margin-bottom: 20px;
+}
+
+.pesnInfo-set>div>label{
+    line-height: 40px;
+    font-size: 18px;
+    display: block;
+}
+.pesnInfo-set input{
+    height: 38px;
+}
+.pesnInfo-set>div:nth-child(2) p{
+    display: inline-block;
+}
+.sex{
+    height: 16px;
+    width: 16px;
+    background: url("../images/sprites_0.png");
+    background-position: -444px -46px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.sex_checked{
+    height: 16px;
+    width: 16px;
+    background: url("../images/sprites_0.png");
+    background-position: -444px -74px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.sex_P{
+    margin-right: 30px;
+}
+.pesnInfo-set .set-year {
+    width: 130px;
+}
+.pesnInfo-set .set-mooth, .pesnInfo-set .set-date,.ml-10 {
+    width: 80px;
+    margin-left: 10px;
+}
+.pesnInfo-set .fitmentStyle, .pesnInfo-set .eduDegree, .pesnInfo-set .industry {
+    width: 180px;
+}
+.pesnInfo-set .region .select_custom {
+    width: 120px;
+}
+.custom {
+    width: auto;
+    min-width: 80px;
+    height: 34px;
+    border: 1px solid #bfbfbe;
+    position: relative;
+    padding-left: 6px;
+}
+
+.custom > .dl {
+    max-height: 256px;
+    background-color: #fff;
+    border: 1px solid #bfbfbe;
+    display: none;
+    float: left;
+    position: absolute;
+    z-index: 999;
+    overflow: auto;
+    cursor: pointer;
+}
+.custom > .th > .dt {
+    padding: 0 10px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+.custom > .th > .dt:hover {
+    background-color: #82c353;
+    color: #fff;
+}
+.custom .th {
+    width: auto;
+    height: 34px;
+    background: url(../images/slt_0.png) 66px 0 no-repeat;
+    line-height: 34px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 34px;
+    display: block;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.set-year,.set-mooth,.set-date{
+    display: inline-block;
+}
+
+.region div{
+    display: inline-block;
+}
+
+
+
+
+
+.w-132{
+    width: 132px;
+}
+.w-256{
+    width: 256px;
+}
+.w-557{
+    width: 557px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.mt-80{
+    margin-top: 80px;
+}
+button.pesnInfo_btn {
+    width: 400px;
+    height: 64px;
+    background-color: #838281;
+    border: none;
+    text-align: center;
+    font: normal 32px/64px "微软雅黑";
+    color: #fff;
+    cursor: not-allowed;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.pesnSet:after{
+    content: "";
+    clear: both;
+}
+
+
+/*订单样式设置*/
+.pesnOrder{
+    display: none;
+    position: absolute;
+}
+.order{
+    width: 1080px;
+    margin-top: 38px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+
+}
+.order tr {
+    border-bottom: 1px solid #ccc;
+}
+.order th {
+    font: normal 18px/50px "微软雅黑";
+}
+.order td {
+    padding: 10px;
+    text-align: center;
+    color: #888;
+}
+.order .img_info img {
+    width: 78px;
+    height: 52px;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+.img_thumbnail p {
+    width: 100px;
+    padding: 10px 10px 0px;
+    margin: 0 auto;
+    font-size: 12px;
+    display: block;
+}
+.data_ctrlGroup {
+    width: 146px;
+}
+.data_ctrlGroup a {
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.data_ctrlGroup .gapLine_v{
+    width: 1px;
+    height: 14px;
+    border-right: 1px solid #ccc;
+    vertical-align: middle;
+}
+.link-gray {
+    color: #888;
+}
+
+.order .data_ctrlGroup .top {
+    border-bottom: 1px solid #ccc;
+}
+input[type="button"]{
+
+    width: 400px;
+    height: 64px;
+    background-color: #838281;
+    border-radius: 3px;
+    text-align: center;
+    font: normal 32px/64px "微软雅黑";
+    color: #fff;
+    display: block;
+    outline: none;
+}
+.return_pesnI{
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+input[type="button"]:hover{
+    background: #82c353;
+    cursor: pointer;
+}
+
+/*我的出售*/
+.sell_info{
+    position: absolute;
+    display: none;
+}
+.pesn_sell{
+    margin-left: 0;
+    margin-top: 20px;
+}
+.ctrlNeedKnow {
+    margin-top: 16px;
+    margin-bottom: 180px;
+}
+.ctrlNeedKnow p {
+    float: right;
+    font-size: 14px;
+    color: #888;
+}
+
+/*个人账户以及系统消息*/
+.accountBox{
+    position: absolute;
+    display: none;
+}
+.grayBg {
+    background-color: #dededd;
+    padding: 20px;
+    margin-top: 38px;
+}
+.grayBg h1 {
+    font-size: 22px;
+}
+.accountBox .myScore {
+    height: 160px;
+    padding: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 15px;
+}
+.white-bg {
+    background-color: #fff;
+}
+.accountBox .myScore .scoreDisplay {
+    width: 240px;
+    float: left;
+}
+.accountBox .myScore .scoreDisplay .scoreNum {
+    font-family: Arial;
+    font-size: 60px;
+}
+.accountBox .myScore .scoreDisplay > p {
+    font: bold 18px/100% "微软雅黑";
+}
+
+.accountBox .myScore .scoreExplain {
+    width: 526px;
+    height: 24px;
+    text-align: center;
+    color: #888;
+    margin-top: 54px;
+    float: left;
+}
+.accountBox .myScore .gotoScoreRule {
+    width: 222px;
+    height: 24px;
+    margin-top: 54px;
+    float: right;
+}
+.accountBox .myScore .gotoScoreRule p {
+    width: 100%;
+    color: #888;
+    text-align: right;
+}
+.link-blue {
+    color: #008edc;
+}
+.sysMesg{
+    display: none;
+    position: absolute;
+}
+.sysMesgBox .mesgList {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    overflow: hidden;
+}
+.sysMesgBox .mesgList .mesgItem {
+    height: auto;
+    margin-bottom: 14px;
+}
+.sysMesgBox .mesgContent {
+    width: 968px;
+    height: 100%;
+    background-color: #fff;
+}
+.sysMesgBox .mesgContent .mesgTxt {
+    width: 654px;
+    height: 20px;
+    line-height: 140%;
+    padding: 34px 56px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.sysMesgBox .mesgList, .sysMesgBox .mesgList .mesgItem, .accountBox .myScore {
+    overflow: hidden;
+}
+.sysMesgBox .mesgContent .mesgDatetime {
+    width: auto;
+    height: 20px;
+    padding: 34px 56px;
+}
+.sysMesgBox .mesgContent p{
+    display: inline-block;
+}
+.sysMesgBox .mesgSelect {
+    width: auto;
+    height: 100%;
+    margin-left: 968px;
+}
+.sysMesgBox .mesgSelect label {
+    top: 30px;
+    margin-left: 36px;
+    cursor: inherit;
+    position: relative;
+}
+.sysMesgBox .mesgSelect .selector, .cancelSell_baseCtrl .cancelCtrl .selector {
+    width: 16px;
+    height: 16px;
+    top: 2px;
+    margin-right: 10px;
+    background: url("../images/sprites_0.png") no-repeat;
+    background-position: -444px -46px;
+    display: inline-block;
+}
+.sysMesg>input{
+    float: right;
+}
+.sysMesg input{
+    margin-top: 0!important;
+}
+
+.active{
+    display: block;
+}
+
+
+
+.ordShadeBox{
+    width: 550px;
+    height: 300px;
+    background: white;
+    border-radius: 20px;
+    box-shadow:0px 0px 20px 0px #888888;
+    position: fixed;
+    top: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    left: 50%;
+    display: none;
+}
+.ordDis{
+    display: none;
+}
+.ordShadeBox h2{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 30px;
+}
+.ordShadeBox > span{
+    display: block;
+    margin: 10px auto 30px auto;
+    width: 410px;
+    height: 1px;
+    background: #888888;
+}
+.ordShadeBox p{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+.orderDiv span{
+    display: inline-block;
+    padding: 10px 60px;
+    background:#838281;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+}
+.orderDiv{
+    width: 400px;
+    height: 70px;
+    margin: 50px auto;
+    text-align: center;
+}
+.orderDiv span:first-child{
+    margin-right: 60px;
+}
+.orderDiv span:hover{
+    background: #82c353;
+}

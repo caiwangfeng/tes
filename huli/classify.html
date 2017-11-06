@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="author" content="punkLee，李朋">
+    <title>商品分类/沙发</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/classify.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="dpi-1260 pos-rela">
+        <div class="header_bg">
+            <!--头部背景-->
+            <img src="imgs/bg_header.jpg" alt="">
+        </div>
+        <a href="#" class="contUS_mark"></a>
+        <!--logo-->
+        <a href="index.html">
+            <div class="logo"></div>
+        </a>
+        <!-- 登录按钮（用户名）&& 购物车组 -->
+        <div class="loginOrShop">
+            <a href="" class="login"></a>
+            <span class="gapLine_0"></span>
+            <a href="#" class="shopping hasRreasure">
+                <span class="treas_count">3</span>
+            </a>
+            <div class="manager-user">
+                <a href="" class="personal">个人中心</a>
+                <a href="login.html" class="checkout-user">退出登录</a>
+            </div>
+            <div class="treas_brief">
+                <div class="treas_brief-content">
+                    <p>
+                        <span class="treas_name"><a href="#">9成新转角沙发超级转角沙发</a></span>
+                        <span class="treas_price">9999</span>
+                        <span class="treas_count">x2</span>
+                    </p>
+                    <p>
+                        <span class="treas_name"><a href="#">3成新超级大茶几</a></span>
+                        <span class="treas_price">9999</span>
+                        <span class="treas_count">x2</span>
+                    </p>
+                    <p>
+                        <span class="treas_name"><a href="#">7成新超级电视贵</a></span>
+                        <span class="treas_price">9999</span>
+                        <span class="treas_count">x2</span>
+                    </p>
+                </div>
+                <div class="treas_brief-goto">
+                    <a href="myShopping.html" target="_self">查看购物车</a>
+                </div>
+            </div>
+        </div>
+        <!--地区选择-->
+        <div class="select_custom dist-select">
+            <i data-value="0" style="background-position: 106px 0;">成都地区</i>
+            <dl style="width: 146px; margin-left: -7px; display: none;">
+                <dt data-value="0">成都地区</dt>
+                <dt data-value="1">北京地区</dt>
+                <dt data-value="2">上海地区</dt>
+                <dt data-value="3">深圳地区</dt>
+                <dt data-value="4">其他地区</dt>
+            </dl>
+        </div>
+    </div>
+    <!--主导航栏-->
+    <div class="main_nav">
+        <div class="dpi-1260">
+            <ul>
+                <li class="ml-10 classify-Menu" ajaxData="classify-sofa">
+                    <a href="#classify-sofa" class="mainMenu">沙发&nbsp;&nbsp;&nbsp;SOFAS</a>
+                    <div>
+                        <a href="#" target="_self" class="lev2_col-1">单人位</a>
+                        <a href="#" target="_self" class="lev2_col-1">双人位</a>
+                        <a href="#" target="_self" class="lev2_col-1">三人位</a>
+                        <a href="#" target="_self" class="lev2_col-1">休闲沙发</a>
+                        <a href="#" target="_self" class="lev2_col-1">转角沙发</a>
+                    </div>
+                </li>
+                <li class="menu-list classify-Menu" ajaxData="classify-tabAndChair">
+                    <a href="#classify-tabAndChair" class="mainMenu" >桌椅&nbsp;&nbsp;&nbsp;TABLES/CHAIRS</a>
+                    <div class="sd">
+                        <a href="#" target="_self" class="lev2_col-2">餐桌</a>
+                        <a href="#" target="_self" class="lev2_col-2">餐椅</a>
+                        <a href="#" target="_self" class="lev2_col-2 clearf-l">书桌</a>
+                        <a href="#" target="_self" class="lev2_col-2">凳子</a>
+                        <a href="#" target="_self" class="lev2_col-2 clearf-l">电脑桌</a>
+                        <a href="#" target="_self" class="lev2_col-2">休闲椅</a>
+                        <a href="#" target="_self" class="lev2_col-2 clearf-l">梳妆台</a>
+                        <a href="#" target="_self" class="lev2_col-2">户外椅</a>
+                        <a href="#" target="_self" class="lev2_col-1 clearf-l">其它</a>
+                    </div>
+                </li>
+                <li class="menu-list classify-Menu" ajaxData="classify-beds">
+                    <a href="#classify-beds" class="mainMenu" >床&nbsp;&nbsp;&nbsp;BEDS</a>
+                    <div>
+                        <a href="#" target="_self" class="lev2_col-1">1.5米</a>
+                        <a href="#" target="_self" class="lev2_col-1">1.8米</a>
+                        <a href="#" target="_self" class="lev2_col-1">其它</a>
+                    </div>
+                </li>
+                <li class="w-134 menu-list classify-Menu" ajaxData="classify-storage">
+                    <a href="#classify-storage" class="mainMenu" >柜&nbsp;&nbsp;&nbsp;STORAGE</a>
+                    <div>
+                        <a href="#" target="_self" class="lev2_col-2 w-48">衣柜</a>
+                        <a href="#" target="_self" class="lev2_col-2 w-48">储物柜</a>
+                        <a href="#" target="_self" class="lev2_col-2 w-48 clearf-l">书柜</a>
+                        <a href="#" target="_self" class="lev2_col-2 w-48">电视柜</a>
+                        <a href="#" target="_self" class="lev2_col-2 w-48 clearf-l">鞋柜</a>
+                        <a href="#" target="_self" class="lev2_col-2 w-48">床头柜</a>
+                        <a href="#" target="_self" class="lev2_col-1 clearf-l">其它</a>
+                    </div>
+                </li>
+                <li class="menu-list classify-Menu" ajaxData="classify-more">
+                    <a href="#classify-more" class="mainMenu">更多&nbsp;&nbsp;&nbsp;MORE</a>
+                    <div>
+                        <a href="#" target="_self" class="lev2_col-1">组合产品</a>
+                        <a href="#" target="_self" class="lev2_col-1">日用家居</a>
+                        <a href="#" target="_self" class="lev2_col-1">家居饰品</a>
+                        <a href="#" target="_self" class="lev2_col-1">其它</a>
+                    </div>
+                </li>
+                <!-- 搜索框 -->
+                <div class="nav_search">
+                    <input type="text" value="" placeholder="搜索">
+                    <i></i>
+                </div>
+            </ul>
+        </div>
+    </div>
+</header>
+<main class="classify">
+    <div class="classify-banner">
+        <h1 class="classify-banner-title">
+            <span class="goods-name"></span>
+        </h1>
+        <ul class="good-sorts">
+
+        </ul>
+    </div>
+    <div class="classifyFilter">
+        <div class="classifyFilter-list">
+            <p class="active">材质</p>
+            <ul>
+                <li>实木</li>
+                <li>其它</li>
+            </ul>
+        </div>
+        <div class="classifyFilter-list">
+            <p>成色</p>
+            <ul>
+                <li>9成新以上</li>
+                <li>7-9成新</li>
+                <li>5-7成新</li>
+                <li>其它</li>
+            </ul>
+        </div>
+        <div class="classifyFilter-list">
+            <p>价格</p>
+            <ul>
+                <li>从低到高</li>
+                <li>从高到低</li>
+            </ul>
+        </div>
+    </div>
+    <div class="classify-goods">
+        <a href="detailed.html" class="goods-choose">
+            <div class="goods-show"></div>
+            <div class="goods-info">
+                <span class="goods-title"></span>
+                <span class="before-price"></span>
+                <span class="present-price"></span>
+            </div>
+        </a>
+        <a href="detailed.html" class="goods-choose">
+            <div class="goods-show"></div>
+            <div class="goods-info">
+                <span class="goods-title"></span>
+                <span class="before-price"></span>
+                <span class="present-price"></span>
+            </div>
+        </a>
+        <a href="detailed.html" class="goods-choose">
+            <div class="goods-show"></div>
+            <div class="goods-info">
+                <span class="goods-title"></span>
+                <span class="before-price"></span>
+                <span class="present-price"></span>
+            </div>
+        </a>
+        <a href="detailed.html" class="goods-choose">
+            <div class="goods-show"></div>
+            <div class="goods-info">
+                <span class="goods-title"></span>
+                <span class="before-price"></span>
+                <span class="present-price"></span>
+            </div>
+        </a>
+        <a href="detailed.html" class="goods-choose">
+            <div class="goods-show"></div>
+            <div class="goods-info">
+                <span class="goods-title"></span>
+                <span class="before-price"></span>
+                <span class="present-price"></span>
+            </div>
+        </a>
+        <a href="detailed.html" class="goods-choose">
+            <div class="goods-show"></div>
+            <div class="goods-info">
+                <span class="goods-title"></span>
+                <span class="before-price"></span>
+                <span class="present-price"></span>
+            </div>
+        </a>
+        <a href="detailed.html" class="goods-choose">
+            <div class="goods-show"></div>
+            <div class="goods-info">
+                <span class="goods-title"></span>
+                <span class="before-price"></span>
+                <span class="present-price"></span>
+            </div>
+        </a>
+        <a href="detailed.html" class="goods-choose">
+            <div class="goods-show"></div>
+            <div class="goods-info">
+                <span class="goods-title"></span>
+                <span class="before-price"></span>
+                <span class="present-price"></span>
+            </div>
+        </a>
+        <a href="detailed.html" class="goods-choose">
+            <div class="goods-show"></div>
+            <div class="goods-info">
+                <span class="goods-title"></span>
+                <span class="before-price"></span>
+                <span class="present-price"></span>
+            </div>
+        </a>
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer-title">生活要过得朴素而有味道，但不用过得奢华。</div>
+    <div class="footer-mark">
+        <div class="footer-mark-box">
+            <div class="footer-mark-keyword">
+                <i>环保</i>
+                <span>无甲醛 大自然</span>
+            </div>
+            <div class="footer-mark-keyword">
+                <i>低价</i>
+                <span>低于购买价6折</span>
+            </div>
+            <div class="footer-mark-keyword">
+                <i>安全</i>
+                <span>专业清洁消毒处理</span>
+            </div>
+            <div class="footer-mark-keyword">
+                <i>省心</i>
+                <span>专业物流配送安装</span>
+            </div>
+            <div class="footer-mark-keyword">
+                <i>快捷</i>
+                <span>24小时内送货</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer-info">
+       <div class="footer-info-box">
+           <div class="footer-info-content">
+               <h2>关于我们</h2>
+               <p>
+                   <a href="#">关于户里</a>
+                   <a href="#">注册协议</a>
+               </p>
+               <p>
+                   <a href="#">业务合作</a>
+                   <a href="#">免责声明</a>
+               </p>
+               <p>
+                   <a href="#">加入户里</a>
+                   <a href="#">隐私保护</a>
+               </p>
+           </div>
+           <div class="footer-info-content">
+               <h2>流程指南</h2>
+               <p>
+                   <a href="#">购买家具</a>
+                   <a href="#">出售家具</a>
+               </p>
+               <p>
+                   <a href="#">支付方式</a>
+                   <a href="#">配送安装</a>
+               </p>
+               <p>
+                   <a href="#">售后保障</a>
+               </p>
+           </div>
+           <div class="footer-info-content">
+               <h2>会员中心</h2>
+               <p>
+                   <a href="#">会员计划</a>
+               </p>
+               <p>
+                   <a href="#">积分规则</a>
+               </p>
+               <p>
+                   <a href="#">投诉建议</a>
+               </p>
+           </div>
+           <div class="footer-info-content">
+               <h2>联系客服</h2>
+               <p>
+                   <span>电话：</span><br>
+                   <span>028-67635062</span>
+               </p>
+               <p>
+                   <span>邮箱：</span><br>
+                   <span>hello@hulihome.com</span>
+               </p>
+           </div>
+           <div class="footer-info-content">
+               <p class="sina">
+                   <i class="sina-small-logo"></i>
+                   <span>新浪微博@户里网</span>
+               </p>
+               <div class="sina-code"></div>
+           </div>
+           <div class="footer-info-content">
+               <p class="wechat">
+                   <i class="wechat-small-logo"></i>
+                   <span>关注微信“户里网”</span>
+               </p>
+               <div class="wechat-code"></div>
+           </div>
+       </div>
+    </div>
+    <div class="footer-copyright">蜀ICP备15028224号  成都户里科技有限公司</div>
+</footer>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/classify.js"></script>
+</body>
+</html>

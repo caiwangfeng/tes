@@ -1,0 +1,159 @@
+{
+  "name"  : "桌椅    TABLES/CHAIRS",
+  "sorts" : ["全部","餐桌","书桌","电脑桌","梳妆台","餐椅","凳子","休闲椅","户外椅","其它"],
+  "info" :[
+    {
+      "url"   : [
+        "imgs/classify-sofa2.jpg",
+        "imgs/classify-sofa3.jpg",
+        "imgs/classify-sofa4.jpg",
+        "imgs/classify-sofa5.jpg",
+        "imgs/classify-sofa1.jpg"
+      ],
+      "title" : "乾隆御用龙椅",
+      "size"  : "三人位",
+      "new"   : "九成新",
+      "beforePrice" : "￥580",
+      "presentPrice" : "￥480",
+      "originPrice"  : "2558元",
+      "point" : 6.8,
+      "remain" : 5
+    },
+    {
+      "url"   : [
+        "imgs/classify-sofa2.jpg",
+        "imgs/classify-sofa3.jpg",
+        "imgs/classify-sofa4.jpg",
+        "imgs/classify-sofa5.jpg",
+        "imgs/classify-sofa1.jpg"
+      ],
+      "title" : "康熙御用龙椅",
+      "size"  : "五人位",
+      "new"   : "七成新",
+      "beforePrice" : "￥880",
+      "presentPrice" : "￥680",
+      "originPrice"  : "3558元",
+      "point" : 8.8,
+      "remain" : 2
+    },
+    {
+      "url"   : [
+        "imgs/classify-sofa2.jpg",
+        "imgs/classify-sofa3.jpg",
+        "imgs/classify-sofa4.jpg",
+        "imgs/classify-sofa5.jpg",
+        "imgs/classify-sofa1.jpg"
+      ],
+      "title" : "雍正御用龙椅",
+      "size"  : "四人位",
+      "new"   : "八成新",
+      "beforePrice" : "￥980",
+      "presentPrice" : "￥770",
+      "originPrice"  : "3958元",
+      "point" : 8.9,
+      "remain" : 7
+    },
+    {
+      "url"   : [
+        "imgs/classify-sofa2.jpg",
+        "imgs/classify-sofa3.jpg",
+        "imgs/classify-sofa4.jpg",
+        "imgs/classify-sofa5.jpg",
+        "imgs/classify-sofa1.jpg"
+      ],
+      "title" : "乾隆御用龙椅",
+      "size"  : "三人位",
+      "new"   : "九成新",
+      "beforePrice" : "￥580",
+      "presentPrice" : "￥480",
+      "originPrice"  : "2558元",
+      "point" : 6.8,
+      "remain" : 5
+    },
+    {
+      "url"   : [
+        "imgs/classify-sofa2.jpg",
+        "imgs/classify-sofa3.jpg",
+        "imgs/classify-sofa4.jpg",
+        "imgs/classify-sofa5.jpg",
+        "imgs/classify-sofa1.jpg"
+      ],
+      "title" : "康熙御用龙椅",
+      "size"  : "五人位",
+      "new"   : "七成新",
+      "beforePrice" : "￥880",
+      "presentPrice" : "￥680",
+      "originPrice"  : "3558元",
+      "point" : 8.8,
+      "remain" : 2
+    },
+    {
+      "url"   : [
+        "imgs/classify-sofa2.jpg",
+        "imgs/classify-sofa3.jpg",
+        "imgs/classify-sofa4.jpg",
+        "imgs/classify-sofa5.jpg",
+        "imgs/classify-sofa1.jpg"
+      ],
+      "title" : "雍正御用龙椅",
+      "size"  : "四人位",
+      "new"   : "八成新",
+      "beforePrice" : "￥980",
+      "presentPrice" : "￥770",
+      "originPrice"  : "3958元",
+      "point" : 8.9,
+      "remain" : 7
+    },
+    {
+      "url"   : [
+        "imgs/classify-sofa2.jpg",
+        "imgs/classify-sofa3.jpg",
+        "imgs/classify-sofa4.jpg",
+        "imgs/classify-sofa5.jpg",
+        "imgs/classify-sofa1.jpg"
+      ],
+      "title" : "乾隆御用龙椅",
+      "size"  : "三人位",
+      "new"   : "九成新",
+      "beforePrice" : "￥580",
+      "presentPrice" : "￥480",
+      "originPrice"  : "2558元",
+      "point" : 6.8,
+      "remain" : 5
+    },
+    {
+      "url"   : [
+        "imgs/classify-sofa2.jpg",
+        "imgs/classify-sofa3.jpg",
+        "imgs/classify-sofa4.jpg",
+        "imgs/classify-sofa5.jpg",
+        "imgs/classify-sofa1.jpg"
+      ],
+      "title" : "康熙御用龙椅",
+      "size"  : "五人位",
+      "new"   : "七成新",
+      "beforePrice" : "￥880",
+      "presentPrice" : "￥680",
+      "originPrice"  : "3558元",
+      "point" : 8.8,
+      "remain" : 2
+    },
+    {
+      "url"   : [
+        "imgs/classify-sofa2.jpg",
+        "imgs/classify-sofa3.jpg",
+        "imgs/classify-sofa4.jpg",
+        "imgs/classify-sofa5.jpg",
+        "imgs/classify-sofa1.jpg"
+      ],
+      "title" : "雍正御用龙椅",
+      "size"  : "五人位",
+      "new"   : "七成新",
+      "beforePrice" : "￥880",
+      "presentPrice" : "￥680",
+      "originPrice"  : "3558元",
+      "point" : 8.8,
+      "remain" : 2
+    }
+  ]
+}

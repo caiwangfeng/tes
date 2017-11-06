@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/**
+ * Created by punkLee on 17/10/30.
+ */
+
+/*main部分*/
+.classify-banner, .classifyFilter, .classify-goods{
+    width: 1190px;
+}
+
+/*classify-banner*/
+.classify-banner{
+    height: 245px;
+    margin: 38px auto 0;
+    background: url("../imgs/classifyBanner_1190dpi.jpg") no-repeat center center;
+    position: relative;
+}
+.classify-banner h1{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.good-sorts{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    transform: translateY(195px);
+}
+.good-sorts li{
+    width: 108px;
+    height: 40px;
+    background-color: #838280;
+    border-radius: 3px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-weight: lighter;
+}
+.good-sorts li:hover{
+    background: #82c353;
+}
+/*classifyFilter*/
+.classifyFilter{
+    height: 64px;
+    position: relative;
+    margin: 50px auto 0;
+
+    border-bottom: 1px solid #b6b7b8;
+}
+.classifyFilter-list{
+    width: 128px;
+    height: auto;
+    border: 1px solid transparent;
+    text-align: center;
+    line-height: 64px;
+    font-size: 20px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.classifyFilter-list:nth-child(2){
+    left: 128px;
+}
+.classifyFilter-list:nth-child(3){
+    left: 256px;
+}
+.classifyFilter-list p{
+    width: 100px;
+    margin:0 auto;
+    transition: border-bottom-color .3s linear;
+}
+.classifyFilter-list ul{
+    width: 128px;
+    line-height: 50px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: none;
+}
+.classifyFilter-list p, .classifyFilter-list li{
+    cursor: pointer;
+}
+.classifyFilter-list li:hover{
+    color: red;
+}
+.active{
+    color: red;
+}
+
+/*classify-goods*/
+.classify-goods{
+    margin: 20px auto 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.goods-choose{
+    display: inline-block;
+    margin: 20px 0;
+    transition: all .25s linear;
+}
+.goods-choose:hover{
+    box-shadow: 0 4px 10px 0 #82c353;
+    background: rgba(130,195,85,.1);
+}
+.goods-show{
+    width: 366px;
+    height: 366px;
+
+}
+.goods-info{
+    width: 366px;
+    height: 64px;
+    text-align: center;
+}
+.goods-info span{
+    margin-left: 20px;
+    line-height: 64px;
+    font-size: 20px;
+    color: #000;
+}
+.goods-info .present-price{
+    color: red;
+}
+.before-price{
+    text-decoration: line-through;
+}
+
+

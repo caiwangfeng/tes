@@ -1,0 +1,59 @@
+{"order":[
+{ "img":"images/example_0.jpg",
+  "price":"￥620",
+  "manufacDate":"2015-08-02",
+  "stockDete":"2015-08-03",
+  "status":"送货中",
+  "commandTop":"<a class=\"link-gray\">查看</a><span class=\"gapLine_v\"></span><a class=\"link-gray cancleOrder\">取消</a>",
+  "commandBottom":"<a class=\"link-gray\">售后</a><span class=\"gapLine_v\"></span><a class=\"link-gray dele\">删除</a>"
+},
+  { "img":"images/example_0.jpg",
+    "price":"￥620",
+    "manufacDate":"2015-08-02",
+    "stockDete":"2015-08-03",
+    "status":"已收货",
+    "commandTop":"<a class=\"link-gray\">查看</a><span class=\"gapLine_v\"></span><a class=\"link-gray cancleOrder\">取消</a>",
+    "commandBottom":"<a class=\"link-gray\">售后</a><span class=\"gapLine_v\"></span><a class=\"link-gray dele\">删除</a>"
+  },
+  { "img":"images/example_0.jpg",
+    "price":"￥620",
+    "manufacDate":"2015-08-02",
+    "stockDete":"2015-08-03",
+    "status":"订单完成",
+    "commandTop":"<a class=\"link-gray\">查看</a><span class=\"gapLine_v\"></span><a class=\"link-gray cancleOrder\">取消</a>",
+    "commandBottom":"<a class=\"link-gray\">售后</a><span class=\"gapLine_v\"></span><a class=\"link-gray dele\">删除</a>"
+  },
+  { "img":"images/example_0.jpg",
+    "price":"￥620",
+    "manufacDate":"2015-08-02",
+    "stockDete":"2015-08-03",
+    "status":"订单完成",
+    "commandTop":"<a class=\"link-gray\">查看</a><span class=\"gapLine_v\"></span><a class=\"link-gray cancleOrder\">取消</a>",
+    "commandBottom":"<a class=\"link-gray\">售后</a><span class=\"gapLine_v\"></span><a class=\"link-gray dele\">删除</a>"
+  }
+
+],
+  "sale":[{
+    "img":"images/example_0.jpg",
+    "price":"￥620",
+    "manufacDate":"2015-08-02",
+    "stockDete":"2015-08-03",
+    "storage":"互里",
+    "status":"售卖中",
+    "isSame":"否",
+    "commandTop":"<a class=\"link-gray\">降价申请</a>",
+    "commandBottom":"<a class=\"link-gray dele\">删除</a><span class=\"gapLine_v\"></span><a class=\"link-gray\">取消</a>"
+},
+  {
+    "img": "images/example_0.jpg",
+    "price": "￥620",
+    "manufacDate": "2015-08-02",
+    "stockDete": "2015-08-03",
+    "storage": "互里",
+    "status": "售卖中",
+    "isSame": "否",
+    "commandTop": "<a class=\"link-gray\">降价申请</a>",
+    "commandBottom": "<a class=\"link-gray dele\">删除</a><span class=\"gapLine_v\"></span><a class=\"link-gray\">取消</a>"
+  }
+]
+}
